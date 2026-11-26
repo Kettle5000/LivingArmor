@@ -95,12 +95,12 @@ public class LivingArmorEntity extends Monster {
 
 		                // Ensure the set has the required size (armor + main hand + offhand)
 		                if (chosenSet.size() == 6) {
-		                    this.setItemSlot(EquipmentSlot.HEAD, chosenSet.get(0));
-		                    this.setItemSlot(EquipmentSlot.CHEST, chosenSet.get(1));
-		                    this.setItemSlot(EquipmentSlot.LEGS, chosenSet.get(2));
-		                    this.setItemSlot(EquipmentSlot.FEET, chosenSet.get(3));
-		                    this.setItemSlot(EquipmentSlot.MAINHAND, chosenSet.get(4));
-		                    this.setItemSlot(EquipmentSlot.OFFHAND, chosenSet.get(5));
+		                    this.setItemSlot(EquipmentSlot.HEAD, chosenSet.get(0).copy());
+		                    this.setItemSlot(EquipmentSlot.CHEST, chosenSet.get(1).copy());
+		                    this.setItemSlot(EquipmentSlot.LEGS, chosenSet.get(2).copy());
+		                    this.setItemSlot(EquipmentSlot.FEET, chosenSet.get(3).copy());
+		                    this.setItemSlot(EquipmentSlot.MAINHAND, chosenSet.get(4).copy());
+		                    this.setItemSlot(EquipmentSlot.OFFHAND, chosenSet.get(5).copy());
 		                }
 		                break;
 		            }

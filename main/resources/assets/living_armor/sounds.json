@@ -1,0 +1,14 @@
+{
+  "charged_bomb": {
+    "category": "hostile",
+    "sounds": [
+      "living_armor:charged_bomb"
+    ]
+  },
+  "cursed_king_death": {
+    "category": "hostile",
+    "sounds": [
+      "living_armor:cursed_king_death"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "entity.living_armor.living_armor": "Living Armor",
+  "entity.living_armor.cursed_king" : "Cursed King",
+  "item.living_armor.cursed_kings_armor_chestplate": "Cursed Kings Armor Chestplate",
+  "enchantment.living_armor.haunted": "Haunted",
+  "item.living_armor.cursed_kings_armor_leggings": "Cursed Kings Armor Leggings",
+  "item.living_armor.cursed_kings_armor_boots": "Cursed Kings Armor Boots",
+  "item.living_armor.cursed_kings_armor_helmet": "Cursed Kings Armor Helmet",
+  "item.living_armor.living_armor_spawn_egg": "Living Armor Spawn Egg",
+  "tooltip.living_armor.armorset.tooltip" : "Permanently cursed, you can feel an enraged soul within it."
+}
